@@ -1,0 +1,73 @@
+
+
+.card{
+    
+    padding: 50px 100px;
+    
+    justify-content:center;
+    display:grid;
+    position:relative;
+    background-color: #fff;
+
+
+}
+
+.addProduct-container{
+    margin: auto;
+    padding: 50px 100px;
+    
+    background-image: url(../assets/pharma.jpg);
+    
+    
+    
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.btn {
+    color: #fff;
+    border:0;
+    border-radius: 8px;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #202142;
+}
+
+.btn-secondary{
+    background-color: #ff6a95;
+}
+
+.btn-hover{
+    transform: scale(0.98);
+    opacity: 0.9;
+}
