@@ -1,5 +1,6 @@
 import React from 'react'
 import {EditFilled} from '@ant-design/icons';
+import './ProductListTable.css'
 
 function ProductsListTable() {
   return (
@@ -24,7 +25,7 @@ function ProductsListTable() {
             <td class="  p-3 text-sm text-gray-700"><a href="#" class="font-bold text-green-500 hover:underline">1478</a></td>
             <td class="  p-3 text-sm text-gray-700">Quinine</td>
             <td class=" p-3 text-sm text-gray-700">Pillule</td>
-            <td lass=" p-3 text-sm text-gray-700"><EditFilled class="text-red-600"/></td> 
+            <td class=" p-3 text-sm text-gray-700"><EditFilled className="icon"/></td> 
         
           </tr>
 
@@ -32,7 +33,7 @@ function ProductsListTable() {
             <td class="p-3 text-sm text-gray-700"> <a href="#" class="font-bold text-green-500 hover:underline">5456</a></td>
             <td class="p-3 text-sm text-gray-700">Depaquine</td>
             <td class="p-3 text-sm text-gray-700">Pillule</td>
-            <td lass=" p-3 text-sm text-gray-700"><EditFilled class="text-red-600" /></td>
+            <td class=" p-3 text-sm text-gray-700"><EditFilled className="icon"/></td>
           </tr>
         </tbody>
       </table>
@@ -45,7 +46,7 @@ function ProductsListTable() {
             <a href="#" class="font-bold text-blue-500 hover:underline">1478</a>
             </div>
         <div class="text-gray-500"> Pillule </div>
-        <div> <EditFilled class="text-red-600" /> </div>
+        <div> <EditFilled className="icon" /> </div>
         </div>
     
        <div class="text-sm font-medium text-black"> Quinine</div>
@@ -58,7 +59,7 @@ function ProductsListTable() {
             <a href="#" class="font-bold text-blue-500 hover:underline">1478</a>
             </div>
         <div class="text-gray-500"> Pillule </div>
-        <div><EditFilled class="text-red-600"/></div>
+        <div><EditFilled className="icon"/></div>
         </div>
     
        <div class="text-sm font-medium text-black"> Quinine</div>
@@ -71,7 +72,7 @@ function ProductsListTable() {
             <a href="#" class="font-bold text-blue-500 hover:underline">1478</a>
             </div>
         <div class="text-gray-500">  Pillule</div>
-        <div><EditFilled class="text-red-600"/></div>
+        <div><EditFilled className="icon"/></div>
         </div>
     
        <div class="text-sm font-medium text-black">Quinine</div>
