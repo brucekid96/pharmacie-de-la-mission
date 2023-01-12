@@ -32,7 +32,7 @@ const Header = () => {
 
           <li>
           <FundFilled className='icon'/>
-          <Link to='/'>Stock</Link>
+          <Link to='/productdetails'>Stock</Link>
           </li>
 
          
